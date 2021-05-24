@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    background: #000;
+}
+.app .count {
+    display: flex;
+    font-size: 10rem;
+    color: red;
+    font-weight: 800;
+}
+
+.button{
+    padding: 15px;
+    border: 1px solid rgb(102, 151, 153); 
+    border-radius: 3px;
+    font-size: 20px;
+    background: rgb(102, 151, 153);
+    color: white;
+    transition:.3s;
+}
+
+.button:hover {
+    background-color: rgba(102, 151, 153, 0.7);
+    border: 1px solid rgba(102, 151, 153, 0.9); 
+}
+
+.input_wrapper {
+    margin: 40px;
+}
+
+.input{
+    border:2px solid #aaa;
+    border-radius:3px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 20px;
+}
+  
+input:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
